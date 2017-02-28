@@ -102,3 +102,4 @@
     - [Nightly Rust](appendix-04-nightly-rust.md)
     - [Macros](appendix-05-macros.md)
     - [Translations](appendix-06-translation.md)
+    - [Syntax Index](appendix-07-syntax-index.md)
