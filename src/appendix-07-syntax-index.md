@@ -7,8 +7,8 @@
 * `const`: constant items and constant raw pointers.  See [`const` and `static`], [Raw Pointers].
 * `continue`: continue to next loop iteration.  See [Loops (Ending Iteration Early)].
 * `crate`: external crate linkage.  See [Crates and Modules (Importing External Crates)].
-* `else`: fallback for `if` and `if let` constructs.  See [if Expressions](ch03-05-control-flow.html#if%20Expressions), [if let](ch06-03-if-let.html).
-* `enum`: defining enumeration.  See [Enums].
+* `else`: fallback for `if` and `if let` constructs.  See [if Expressions], [if let].
+* `enum`: defining enumeration. See [Defining an Enum][Enums].
 * `extern`: external crate, function, and variable linkage.  See [Crates and Modules (Importing External Crates)], [Foreign Function Interface].
 * `false`: boolean false literal.  See [Primitive Types (Booleans)].
 * `fn`: function definition and function pointer types.  See [Functions].
@@ -188,66 +188,66 @@
 * `expr[expr]`: collection indexing.  Overloadable (`Index`, `IndexMut`).
 * `expr[..]`, `expr[a..]`, `expr[..b]`, `expr[a..b]`: collection indexing pretending to be collection slicing, using `Range`, `RangeFrom`, `RangeTo`, `RangeFull` as the "index".
 
-[`const` and `static` (`static`)]: const-and-static.html#static
-[`const` and `static`]: const-and-static.html
-[`if let`]: if-let.html
-[`if`]: if.html
-[`type` Aliases]: type-aliases.html
-[Associated Types]: associated-types.html
+[`type` Aliases]: ch19-03-advanced-traits.html#todo
+[Associated Types]: ch19-03-advanced-traits.html#todo
 [Attributes]: attributes.html
-[Casting Between Types (`as`)]: casting-between-types.html#as
-[Closures (`move` closures)]: closures.html#move-closures
-[Closures]: closures.html
-[Comments]: comments.html
-[Crates and Modules (Defining Modules)]: crates-and-modules.html#defining-modules
-[Crates and Modules (Exporting a Public Interface)]: crates-and-modules.html#exporting-a-public-interface
-[Crates and Modules (Importing External Crates)]: crates-and-modules.html#importing-external-crates
-[Crates and Modules (Importing Modules with `use`)]: crates-and-modules.html#importing-modules-with-use
-[Crates and Modules (Re-exporting with `pub use`)]: crates-and-modules.html#re-exporting-with-pub-use
-[Diverging Functions]: functions.html#diverging-functions
-[Enums]: enums.html
-[Foreign Function Interface]: ffi.html
+[Casting Between Types (`as`)]: todo.html
+[Closures (`move` closures)]: todo.html
+[Closures]: ch13-01-closures.html
+[Comments]: ch03-04-comments.html
+[Constants]: ch03-01-variables-and-mutability.html#differences-between-variables-and-constants
+[Crates and Modules (Defining Modules)]: ch07-01-mod-and-the-filesystem.html#module-definitions
+[Crates and Modules (Exporting a Public Interface)]: ch14-02-publishing-to-crates-io.html#exporting-a-convenient-public-api-with-pub-use
+[Crates and Modules (Importing External Crates)]: todo.html
+[Crates and Modules (Importing Modules with `use`)]: ch07-03-importing-names-with-use.html#concise-imports-with-use
+[Crates and Modules (Re-exporting with `pub use`)]: ch14-02-publishing-to-crates-io.html#exporting-a-convenient-public-api-with-pub-use
+[Diverging Functions]: todo.html
+[Enums]: ch06-01-defining-an-enum.html
+[Foreign Function Interface]: ch19-01-unsafe-rust.html#todo
 [Functions (Early Returns)]: functions.html#early-returns
-[Functions]: functions.html
-[Generics]: generics.html
-[Iterators]: iterators.html
-[`try!` macro]: error-handling.html#the-try-macro
-[Lifetimes]: lifetimes.html
-[Loops (`for`)]: loops.html#for
-[Loops (`loop`)]: loops.html#loop
-[Loops (`while`)]: loops.html#while
-[Loops (Ending Iteration Early)]: loops.html#ending-iteration-early
-[Loops (Loops Labels)]: loops.html#loop-labels
-[Macros]: macros.html
-[Match]: match.html
-[Method Syntax (Method Calls)]: method-syntax.html#method-calls
-[Method Syntax]: method-syntax.html
-[Mutability]: mutability.html
-[Operators and Overloading]: operators-and-overloading.html
-[Patterns (`ref` and `ref mut`)]: patterns.html#ref-and-ref-mut
-[Patterns (Bindings)]: patterns.html#bindings
-[Patterns (Ignoring bindings)]: patterns.html#ignoring-bindings
-[Patterns (Multiple patterns)]: patterns.html#multiple-patterns
-[Patterns (Ranges)]: patterns.html#ranges
-[Primitive Types (`char`)]: primitive-types.html#char
-[Primitive Types (Arrays)]: primitive-types.html#arrays
-[Primitive Types (Booleans)]: primitive-types.html#booleans
-[Primitive Types (Tuple Indexing)]: primitive-types.html#tuple-indexing
-[Primitive Types (Tuples)]: primitive-types.html#tuples
-[Raw Pointers]: raw-pointers.html
+[Functions]: ch03-03-how-functions-work.html
+[Generics]: ch10-01-syntax.html
+[if let]: ch06-03-if-let.html
+[if Expressions]: ch03-05-control-flow.html#if-expressions
+[Iterators]: ch13-02-iterators.html
+[`try!` macro]: todo.html
+[Lifetimes]: ch10-03-lifetime-syntax.html
+[Loops (`for`)]: ch03-05-control-flow.html#looping-through-a-collection-with-for
+[Loops (`loop`)]: ch03-05-control-flow.html#repeating-code-with-loop
+[Loops (`while`)]: ch03-05-control-flow.html#conditional-loops-with-while
+[Loops (Ending Iteration Early)]: ch03-05-control-flow.html#repeating-code-with-loop
+[Loops (Loops Labels)]: todo.html
+[Macros]: todo.html
+[Match]: ch06-02-match.html
+[Method Syntax (Method Calls)]: ch05-01-method-syntax.html#todo
+[Method Syntax]: ch05-01-method-syntax.html#todo
+[Mutability]: ch03-01-variables-and-mutability.html
+[Operators and Overloading]: todo.html
+[Patterns (`ref` and `ref mut`)]: ch18-00-patterns.html#todo
+[Patterns (Bindings)]: ch18-00-patterns.html#todo
+[Patterns (Ignoring bindings)]: ch18-00-patterns.html#todo
+[Patterns (Multiple patterns)]: ch18-00-patterns.html#todo
+[Patterns (Ranges)]: ch18-00-patterns.html#todo
+[Primitive Types (`char`)]: ch03-02-data-types.html#the-character-type
+[Primitive Types (Arrays)]: ch03-02-data-types.html#arrays
+[Primitive Types (Booleans)]: ch03-02-data-types.html#the-boolean-type
+[Primitive Types (Tuple Indexing)]: ch03-02-data-types.html#grouping-values-into-tuples
+[Primitive Types (Tuples)]: ch03-02-data-types.html#grouping-values-into-tuples
+[Raw Pointers]: ch19-01-unsafe-rust.html#todo
 [Reference (Byte String Literals)]: ../reference/tokens.html/#byte-string-literals
 [Reference (Integer literals)]: ../reference/tokens.html#integer-literals
 [Reference (Raw Byte String Literals)]: ../reference/tokens.html#raw-byte-string-literals
 [Reference (Raw String Literals)]: ../reference/tokens.html#raw-string-literals
-[References and Borrowing]: references-and-borrowing.html
-[Strings]: strings.html
-[Structs (Update syntax)]: structs.html#update-syntax
-[Structs]: structs.html
-[Traits (`where` clause)]: traits.html#where-clause
-[Traits (Multiple Trait Bounds)]: traits.html#multiple-trait-bounds
-[Traits]: traits.html
-[Universal Function Call Syntax]: ufcs.html
-[Universal Function Call Syntax (Angle-bracket Form)]: ufcs.html#angle-bracket-form
-[Unsafe]: unsafe.html
-[Unsized Types (`?Sized`)]: unsized-types.html#sized
-[Variable Bindings]: variable-bindings.html
+[References and Borrowing]: ch04-02-references-and-borrowing.html
+[Strings]: todo.html
+[Structs (Update syntax)]: todo.html
+[Structs]: ch05-00-structs.html
+[Static]: ch19-01-unsafe-rust.html#todo
+[Traits (`where` clause)]: ch10-02-traits.html#trait-bounds
+[Traits (Multiple Trait Bounds)]: ch10-02-traits.html#trait-bounds
+[Traits]: ch10-02-traits.html
+[Universal Function Call Syntax]: ch19-03-advanced-traits.html#todo
+[Universal Function Call Syntax (Angle-bracket Form)]: ch19-03-advanced-traits.html#todo
+[Unsafe]: ch19-01-unsafe-rust.html#todo
+[Unsized Types (`?Sized`)]: todo.html
+[Variable Bindings]: ch03-01-variables-and-mutability.html
